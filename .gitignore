@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Dsl.Api/obj
+/Dsl.Api/bin/Debug/net6.0
+/.vs/Dsl.Api/FileContentIndex
+/.vs
+/Dsl.Domain/bin/Debug/net6.0
+/Dsl.Domain/obj
+/Dsl.Infrastructure/bin/Debug/net6.0
+/Dsl.Infrastructure/obj
