@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Dsl.Api.csproj", "Dsl.Api/"]
+COPY ["Dsl.Api/Dsl.Api.csproj", "Dsl.Api/"]
 RUN dotnet restore "Dsl.Api/Dsl.Api.csproj"
 COPY . .
 WORKDIR "/src/Dsl.Api"
