@@ -32,6 +32,35 @@ namespace Dsl.Api.Controllers
             return transactions;
         }
 
+        [HttpPost("fileupload")]
+        public async Task<string> FileUpload([FromForm] FileUploadRequest fileUploadRequest)
+        {
+            try
+            {
+                byte[] binaryImage;
+
+                using (var stream = new MemoryStream())
+                {
+                    fileUploadRequest.FileDetails.CopyTo(stream);
+                    binaryImage = stream.ToArray();
+                }
+
+                var fileUpload = new FileUpload
+                {
+                    FileName = fileUploadRequest.FileDetails.FileName,
+                    Image = binaryImage
+                };
+
+                await _mapper.InsertAsync(fileUpload);
+
+                return fileUpload.FileName;
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+            }
+        }
+
         [HttpGet("startperformance/{count}")]
         public async Task StartCSharpDriverPerformance(uint count = 1000)
         {

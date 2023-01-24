@@ -26,9 +26,14 @@ namespace Dsl.Api.Controllers
         public async Task<RestResponseResult<Transaction>> TestConnection()
         {
             return await _restSharpWrapperService.GetStargateAsync();
-
         }
-        
+
+        [HttpPost("fileupload")]
+        public async Task<string> FileUpload([FromForm] FileUploadRequest fileUploadRequest)
+        {
+            return await _restSharpWrapperService.UploadFileAsync(fileUploadRequest);
+        }
+
         [HttpGet("startperformance/{count}")]
         public async Task StartStartgatePerformance(uint count = 1000)
         {

@@ -50,6 +50,13 @@ namespace Dsl.Infrastructure
                   .Column(u => u.Status, cm => cm.WithName("status"))
                   .Column(u => u.TransactionDate, cm => cm.WithName("transactiondate")));
 
+            MappingConfiguration.Global.Define(
+               new Map<FileUpload>()
+                  .TableName("transactions_blobs")
+                  .Column(u => u.Id, cm => cm.WithName("id"))
+                  .Column(u => u.FileName, cm => cm.WithName("filename"))
+                  .Column(u => u.Image, cm => cm.WithName("image")));
+
             var mapper = new Mapper(session);
 
             services.AddSingleton<IMapper>(mapper);
