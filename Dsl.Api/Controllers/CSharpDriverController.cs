@@ -25,11 +25,18 @@ namespace Dsl.Api.Controllers
         [HttpGet("testconnection")]
         public List<Transaction> GetBigData()
         {
-            var transactions = _mapper
-                .Fetch<Transaction>("SELECT * FROM asb.transactions_by_account LIMIT 10")
-                .ToList();
+            try
+            {
+                var transactions = _mapper
+                    .Fetch<Transaction>("SELECT * FROM asb.transactions_by_account LIMIT 10")
+                    .ToList();
 
-            return transactions;
+                return transactions;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         [HttpPost("fileupload")]
