@@ -53,7 +53,6 @@ namespace Dsl.Infrastructure.Services
 
             var fileUpload = new FileUpload
             {
-                Id = Guid.NewGuid(),
                 Image = binaryImage,
                 FileName = fileUploadRequest.FileDetails.FileName
             };

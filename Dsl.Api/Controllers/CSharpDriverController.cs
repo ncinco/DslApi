@@ -54,7 +54,6 @@ namespace Dsl.Api.Controllers
 
                 var fileUpload = new FileUpload
                 {
-                    Id = Guid.NewGuid(),
                     FileName = fileUploadRequest.FileDetails.FileName,
                     Image = binaryImage
                 };
