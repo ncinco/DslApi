@@ -44,8 +44,8 @@ namespace Dsl.Domain.Models
         [JsonProperty("account_balance")]
         public decimal AccountBalance { get; set; }
 
-        [JsonProperty("variable_balance")]
-        public decimal VariableBalance { get; set; }
+        [JsonProperty("available_balance")]
+        public decimal AvailableBalance { get; set; }
 
         public List<Relationship> Relationships { get; set; }
     }
