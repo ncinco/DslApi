@@ -1,5 +1,7 @@
 ﻿using Dsl.Domain.Models;
 using Dsl.Infrastructure.Services;
+using Dsl.Infrastructure.Services.Performance;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dsl.Api.Controllers
@@ -20,7 +22,7 @@ namespace Dsl.Api.Controllers
         [HttpGet("bank-accounts/{tokenisedCif}")]
         public async Task<BankAccounts> GetBankAccounts(Guid tokenisedCif)
         {
-            return await _restSharpWrapperService.GetBankAccountsAsync(tokenisedCif);
+            return await _restSharpWrapperService.GetBankAccounts(tokenisedCif);
         }
     }
 }

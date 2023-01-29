@@ -52,10 +52,8 @@ namespace Dsl.Domain.Models
 
     public class Relationship
     {
-        [JsonProperty("cif_number")]
         public string CifNumber { get; set; }
 
-        [JsonProperty("link_type")]
         public string LinkType { get; set; }
     }
 }
