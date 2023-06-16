@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T00:20:56.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QzxKnHh20euCAkcj_nQt" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T00:22:04.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9FAfo6Ki5YDm2CU_6k0b" version="21.2.9" type="github">
   <diagram name="Page-1" id="M46h-v1VHYYUo1osl_IP">
     <mxGraphModel dx="2924" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,6 +74,12 @@
         </mxCell>
         <mxCell id="qX8ggfhDWDz1T4f77J6p-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-cctv-128.png" vertex="1" parent="1">
           <mxGeometry x="-20" y="393" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="qX8ggfhDWDz1T4f77J6p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qX8ggfhDWDz1T4f77J6p-26" target="qX8ggfhDWDz1T4f77J6p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qX8ggfhDWDz1T4f77J6p-26" value="pihole" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
+          <mxGeometry x="730" y="401.5" width="37" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
