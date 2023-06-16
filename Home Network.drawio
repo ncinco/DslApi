@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T01:39:42.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wWDlVT5wJb8Yv_cfGjOb" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T01:39:57.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="irApRqElcYN1FzRLJZ9S" version="21.4.0" type="github">
   <diagram name="Page-1" id="M46h-v1VHYYUo1osl_IP">
     <mxGraphModel dx="2074" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qX8ggfhDWDz1T4f77J6p-26" value="pihole" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" parent="1" vertex="1">
-          <mxGeometry x="775" y="401.5" width="37" height="37" as="geometry" />
+          <mxGeometry x="745" y="401.5" width="37" height="37" as="geometry" />
         </mxCell>
         <mxCell id="qX8ggfhDWDz1T4f77J6p-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qX8ggfhDWDz1T4f77J6p-28" target="qX8ggfhDWDz1T4f77J6p-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
