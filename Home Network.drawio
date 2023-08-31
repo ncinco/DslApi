@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T11:42:48.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nFd4bj6hRTh5vMyPIu5r" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T11:51:05.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WNUhgc-AINyQCryJrnVI" version="21.7.1" type="github">
   <diagram name="Page-1" id="M46h-v1VHYYUo1osl_IP">
-    <mxGraphModel dx="1728" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,60 +69,60 @@
         <mxCell id="qX8ggfhDWDz1T4f77J6p-28" value="Storage&lt;br&gt;Account" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" parent="1" vertex="1">
           <mxGeometry x="255" y="150" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ooiyxPpr3g-j9ehjILYT-1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ooiyxPpr3g-j9ehjILYT-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-1" value="Work" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-1" value="Work" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" parent="1" vertex="1">
           <mxGeometry x="660" y="520" width="53" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-3" value="MediaServer" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-3" value="HP EliteDesk&lt;br&gt;Mini" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="70" y="400" width="45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
           <mxGeometry x="75" y="354.2" width="40" height="32.8" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-10" value="Storage" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.external_storage;" vertex="1" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-10" value="Storage" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.external_storage;" parent="1" vertex="1">
           <mxGeometry x="20" y="403.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-12" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-12" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="30" y="272" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-12">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ooiyxPpr3g-j9ehjILYT-12" vertex="1">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:729/1*aNmEjZK4zTh0E4w7Z0YSNA.png;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-12">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:729/1*aNmEjZK4zTh0E4w7Z0YSNA.png;" parent="ooiyxPpr3g-j9ehjILYT-12" vertex="1">
           <mxGeometry x="41.860000000000014" y="44.25999999999999" width="36.27" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jelly-banner-light.svg/2560px-Jelly-banner-light.svg.png;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-12">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jelly-banner-light.svg/2560px-Jelly-banner-light.svg.png;" parent="ooiyxPpr3g-j9ehjILYT-12" vertex="1">
           <mxGeometry x="66.86000000000001" y="15.259999999999991" width="42.5" height="14.17" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://idroot.us/wp-content/uploads/2016/07/qbittorrent-logo.png;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-12">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://idroot.us/wp-content/uploads/2016/07/qbittorrent-logo.png;" parent="ooiyxPpr3g-j9ehjILYT-12" vertex="1">
           <mxGeometry x="16.860000000000014" y="5.730000000000018" width="35" height="33.22" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ooiyxPpr3g-j9ehjILYT-13" target="qX8ggfhDWDz1T4f77J6p-6">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooiyxPpr3g-j9ehjILYT-13" target="qX8ggfhDWDz1T4f77J6p-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-13" value="TrueNAS" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-13" value="TrueNAS" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" parent="1" vertex="1">
           <mxGeometry x="730" y="403.5" width="38" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-23" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-23" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="185" y="611" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-23">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ooiyxPpr3g-j9ehjILYT-23" vertex="1">
           <mxGeometry width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-20" value="CCTV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-23">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-20" value="CCTV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ooiyxPpr3g-j9ehjILYT-23" vertex="1">
           <mxGeometry x="40" y="80" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jbhifi.co.nz/FileLibrary/ProductResources/Images/164934-L-LO.jpg;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-23">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jbhifi.co.nz/FileLibrary/ProductResources/Images/164934-L-LO.jpg;" parent="ooiyxPpr3g-j9ehjILYT-23" vertex="1">
           <mxGeometry x="80" y="15" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jbhifi.co.nz/FileLibrary/ProductResources/Images/190605-L-LO.jpg;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-23">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jbhifi.co.nz/FileLibrary/ProductResources/Images/190605-L-LO.jpg;" parent="ooiyxPpr3g-j9ehjILYT-23" vertex="1">
           <mxGeometry x="10" y="5" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ooiyxPpr3g-j9ehjILYT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ooiyxPpr3g-j9ehjILYT-15" target="qX8ggfhDWDz1T4f77J6p-5">
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ooiyxPpr3g-j9ehjILYT-15" target="qX8ggfhDWDz1T4f77J6p-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="255" y="431" as="targetPoint" />
           </mxGeometry>
