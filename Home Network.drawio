@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T11:35:14.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XKRE6VHhnvJ7iNxme7gt" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T11:35:58.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="EBOGVgwSfXt4MT3Q9lCf" version="21.7.1" type="github">
   <diagram name="Page-1" id="M46h-v1VHYYUo1osl_IP">
     <mxGraphModel dx="1430" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,6 +100,12 @@
         </mxCell>
         <mxCell id="ooiyxPpr3g-j9ehjILYT-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://idroot.us/wp-content/uploads/2016/07/qbittorrent-logo.png;" vertex="1" parent="ooiyxPpr3g-j9ehjILYT-12">
           <mxGeometry x="16.860000000000014" y="5.730000000000018" width="35" height="33.22" as="geometry" />
+        </mxCell>
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ooiyxPpr3g-j9ehjILYT-13" target="qX8ggfhDWDz1T4f77J6p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooiyxPpr3g-j9ehjILYT-13" value="TrueNAS" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+          <mxGeometry x="730" y="403.5" width="38" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
